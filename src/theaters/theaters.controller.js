@@ -4,14 +4,6 @@ const moviesService = require("../movies/movies.service");
 const reduceProperties = require("../utils/reduce-properties");
 const mapProperties = require("../utils/map-properties");
 
-// const addMovie = mapProperties({
-//     movie_id: "movie.movie_id",
-//     title: "movie.runtime_in_minutes",
-//     rating: "movie.rating",
-//     description: "movie.description",
-//     image_url: "movie.image_url",
-// });
-
 const reduceMovies = reduceProperties("theater_id", {
     movie_id: ["movies", null, "movie_id"],
     title: ["movies", null, "title"],
