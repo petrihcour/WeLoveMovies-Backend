@@ -12,6 +12,8 @@ async function list(req, res) {
   }
 }
 
+// this was working yesterday and now no longer works. maybe the frontend issue causing the problem 
+
 async function movieExists(req, res, next) {
   const movie = await service.read(req.params.movieId);
   if (movie) {

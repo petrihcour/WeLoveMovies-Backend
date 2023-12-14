@@ -6,7 +6,7 @@ router.route("/")
 .get(controller.list)
 .all(methodNotAllowed);
 
-router.route("/:movieId")
+router.route("/:movieId([0-9]+)")
 .get(controller.read)
 .all(methodNotAllowed);
 
