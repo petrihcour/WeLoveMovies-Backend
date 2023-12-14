@@ -7,7 +7,7 @@ There are four different cases to consider:
 - `GET /movies/:movieId` (done)
 - `GET /movies/:movieId` (incorrect ID) (done)
 - `GET /movies/:movieId/theaters` (done)
-- `GET /movies/:movieId/reviews`
+- `GET /movies/:movieId/reviews` (done)
 
 ### GET /movies/:movieId
 
