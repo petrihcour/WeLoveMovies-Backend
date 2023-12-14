@@ -1,7 +1,5 @@
 const knex = require("../db/connection");
 
-// none of this is working. comes back as [object Object]. i think it's the frontend issue
-
 function listTheatersAndMovies() {
     return knex("theaters as t")
     .leftJoin("movies_theaters as mt", "t.theater_id", "mt.theater_id")
