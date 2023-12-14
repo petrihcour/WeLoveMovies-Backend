@@ -4,7 +4,7 @@ This route will return a list of all theaters. Different query parameters will a
 
 There is one case to consider:
 
-- `GET /theaters`
+- `GET /theaters` (done)
 
 ### GET /theaters
 

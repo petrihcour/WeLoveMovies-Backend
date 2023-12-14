@@ -10,4 +10,8 @@ router.route("/:movieId([0-9]+)")
 .get(controller.read)
 .all(methodNotAllowed);
 
+router.route("/:movieId([0-9]+)/theaters")
+.get(controller.listTheatersWithMovies)
+.all(methodNotAllowed);
+
 module.exports = router;

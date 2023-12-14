@@ -18,8 +18,16 @@ function read(movie_id) {
     .first();
 }
 
+function listTheatersWithMovies(movie_id) {
+    return knex("theaters as t")
+    .join("movies_theaters as mt", "t.theater_id", "mt.theater_id")
+    .select("t.*")
+    .where({ "mt.movie_id": movie_id, "mt.is_showing": true })
+}
+
 module.exports = {
     list,
     listMovieShowings,
     read,
+    listTheatersWithMovies,
 }
