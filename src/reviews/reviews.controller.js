@@ -20,8 +20,6 @@ async function read(req, res) {
     res.json({ data })
 }
 
-// need to fix the update function to ensure critics gets added.
-
 async function update(req, res) {
     const updatedReview = {
         ...res.locals.review,

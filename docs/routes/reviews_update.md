@@ -2,7 +2,7 @@
 
 This route will allow you to partially or fully update a review. If the ID is incorrect, a `404` will be returned.
 
-### UPDATE /reviews/:reviewId
+### UPDATE /reviews/:reviewId (done)
 
 Create a route that responds to the following request:
 
@@ -54,7 +54,7 @@ The response should include the entire review record with the newly patched cont
   const data = await service.update(updatedReview);
 ```
 
-### UPDATE /reviews/:reviewId (incorrect ID)
+### UPDATE /reviews/:reviewId (incorrect ID) (done)
 
 If the given ID does not match an existing review, a response like the following should be returned:
 

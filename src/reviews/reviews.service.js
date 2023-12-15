@@ -16,8 +16,6 @@ function read(review_id) {
     return knex("reviews").select("*").where({ review_id }).first();
   }
 
-  // need to fix the update function to ensure critics gets added.
-
 function readCritic(review_id) {
     return knex("reviews as r")
     .join("critics as c", "r.critic_id", "c.critic_id")
