@@ -32,9 +32,16 @@ function update(updatedReview) {
     .then((updatedRecords) => updatedRecords[0]);
 }
 
+function destroy(review_id) {
+    return knex("reviews")
+    .where({ review_id })
+    .del();
+}
+
 module.exports = {
     list,
     read,
     readCritic,
     update,
+    delete: destroy,
 }
