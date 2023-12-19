@@ -48,7 +48,17 @@ Moving forward, I aim to enhance the project by implementing additional features
 
 ## Screenshots
 
-[Include relevant screenshots or supplemental images here]
+Home
+![Home Page](./images/homepage.jpeg)
+
+/movies 
+![Movies Page](./images/moviespage.jpeg)
+
+/theaters
+![Theaters Page](./images/theaterspage.jpeg)
+
+/movies/:movieId
+![Single Movie page](./images/moviepage.jpeg)
 
 ---
 
