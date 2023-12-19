@@ -70,7 +70,7 @@ exports.seed = function (knex) {
       description:
         "As a boy, Carl Fredricksen wanted to explore South America and find the forbidden Paradise Falls. About 64 years later he gets to begin his journey along with Boy Scout Russell by lifting his house with thousands of balloons. On their journey, they make many new friends including a talking dog, and figure out that someone has evil plans. Carl soon realizes that this evildoer is his childhood idol...",
       image_url:
-        "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_Ratio0.6791_AL_.jpg",
+        "https://filmartgallery.com/cdn/shop/products/Up-Vintage-Movie-Poster-Original-1-Sheet-27x41_800x.progressive.jpg?v=1673931666",
     },
     {
       title: "Monty Python and the Holy Grail",
